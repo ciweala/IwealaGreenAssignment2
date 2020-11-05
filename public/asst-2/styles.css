@@ -8,6 +8,7 @@ html {
   
   .header {
     color: #fff;
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -22,12 +23,12 @@ html {
   .wrapper {
     display: flex;
     flex-direction: row;
-    left: auto;
+    align-content: center;
   }
-  
+
   .container {
     min-height: 100%;
-    left: auto;
+    align-content: center;
   }
   
   *, *:before, *:after {
@@ -82,17 +83,17 @@ html {
   
   .suggestions li:nth-child(even) {
     transform: perspective(100px) translateY(2px) scale(1.001);
-    background: linear-gradient(to bottom,  #ba49eb 25%,#5274ff 75%);
+    background: linear-gradient(to bottom,  #ffffff 35%,#5274ff 65%);
     margin: 1em 0;
   }
   
   .suggestions li:nth-child(odd) {
     transform: perspective(100px) translateY(3px);
-    background: linear-gradient(to top,  #49f2e1 25%,#ffffff 75%);
+    background: linear-gradient(to top,  #49f2e1 35%,#ffffff 65%);
     margin: 1em 0;
     
   }
   
   .hl {
-    background: #ffc600;
+    background: #a066e3;
   }
